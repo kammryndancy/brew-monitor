@@ -15,8 +15,8 @@
     "node": ">=10.13.2"
   },
   "dependencies": {
-    "lodash": "4.5.x",
-    "express": ">=4.17.13",
+    "lodash": ">=4.17.13",
+    "express": "4.17.x",
     "ds18b20-raspi": "^0.3.3"
   },
   "repository": {
