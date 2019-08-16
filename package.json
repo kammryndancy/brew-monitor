@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "lodash": "4.5.x",
-    "express": "4.17.x",
+    "express": ">=4.17.13",
     "ds18b20-raspi": "^0.3.3"
   },
   "repository": {
