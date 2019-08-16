@@ -1,0 +1,9 @@
+node_modules
+tmp
+.*.swp
+._*
+.DS_Store
+.lock-wscript
+.wafpickle-*
+*.log
+*.iml
