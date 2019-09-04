@@ -4,17 +4,14 @@
   "description": "",
   "main": "lib/main",
   "scripts": {
-    "lint": "eslint lib/**/*.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./lib/main.js"
-  },
-  "scripts": {
+    "main": "node ./lib/main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": ">=10.13.2"
   },
   "dependencies": {
+    "log4js": "~5.0.0",
     "lodash": ">=4.17.13",
     "express": "4.17.x",
     "ds18b20-raspi": "^0.3.3"
