@@ -11,5 +11,19 @@
     "code": "***",
     "refreshToken": "***",
     "access_token": "***"
+  },
+  "brewFriend": {
+    "deviceName": "Raspi Brew Monitor",
+    "tempUnit": "C",
+    "host": "api.brewersfriend.com",
+    "stream": "log.brewersfriend.com",
+    "version": "/v1",
+    "header": "X-API-KEY",
+    "path": {
+      "brewSessions": "/brewsessions",
+      "fermentation": "/fermentation",
+      "import": "/import",
+      "stream": "/stream"
+    }
   }
 }
